@@ -1,0 +1,81 @@
+.editButton {
+    background-color: #1890ff;
+    color: #000;
+    border: none;
+    padding: 4px 8px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .editButton:hover {
+    background-color: #40a9ff;
+  }
+  
+  .deleteButton {
+    background-color: #ff4d4f;
+    color: #000;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d9363e;
+  }
+
+  .record-item {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .record-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+  }
+
+  .record-table th, .record-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .record-table th {
+    background-color: #f0f0f0;
+  }
+
+  .record-table tr.even {
+    background-color: #fafafa;
+  }
+
+  .record-table tr.odd {
+    background-color: #fff;
+  }
+
+  .editButton {
+    margin-right: 8px;
+    padding: 4px 8px;
+  }
+
+  .deleteButton {
+    padding: 4px 8px;
+  }
+
+  .header-txt {
+    color: #000;
+  }
+
+  .body-txt {
+    color: #000;
+  }
